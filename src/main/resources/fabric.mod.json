@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "emicompat",
+	"version": "${version}",
+	"name": "EMI Compat",
+	"description": "Compatibility layer for EMI.",
+	"icon": "assets/emicompat/icon.png",
+	"authors": [
+		"mervyn"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"emi": [
+			"com.mervyn.emicompat.AdAstraEmiCompat",
+			"com.mervyn.emicompat.ChippedEmiCompat"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"emi": "*",
+		"ad_astra": "*"
+	}
+}
