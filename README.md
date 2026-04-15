@@ -1,6 +1,6 @@
-# EMI Compat
+# EMI Compat (Client-side)
 
-A compatibility layer bringing enhanced [EMI](https://github.com/emilyploszaj/emi) (Exhaustive Materials Indicator) support to various mods.
+A compatibility layer bringing enhanced [EMI](https://github.com/emilyploszaj/emi) support to various mods.
 
 ## Features
 

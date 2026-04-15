@@ -9,7 +9,7 @@
 		"mervyn"
 	],
 	"license": "MIT",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"emi": [
 			"com.mervyn.emicompat.AdAstraEmiCompat",
