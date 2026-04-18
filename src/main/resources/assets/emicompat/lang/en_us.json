@@ -8,5 +8,6 @@
   "emi.category.chipped.loom_table": "Loom Table",
   "emi.category.chipped.mason_table": "Mason Table",
   "emi.category.chipped.mechanist_workbench": "Mechanist's Workbench",
-  "emi.category.chipped.tinkering_table": "Tinkering Table"
+  "emi.category.chipped.tinkering_table": "Tinkering Table",
+  "emi.category._emicompat.spell_binding": "Spell Binding Table"
 }

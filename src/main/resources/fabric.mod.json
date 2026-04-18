@@ -12,6 +12,7 @@
 	"environment": "client",
 	"entrypoints": {
 		"emi": [
+			"com.mervyn.emicompat.SpellEngineEmiCompat",
 			"com.mervyn.emicompat.AdAstraEmiCompat",
 			"com.mervyn.emicompat.ChippedEmiCompat"
 		]
@@ -23,6 +24,7 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"emi": "*",
-		"ad_astra": "*"
+		"ad_astra": "*",
+		"spell_engine": "*"
 	}
 }

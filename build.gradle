@@ -37,6 +37,11 @@ dependencies {
 	modImplementation "com.teamresourceful.resourcefullib:resourcefullib-fabric-1.20.1:2.1.25"
 	modImplementation "earth.terrarium.botarium:botarium-fabric-1.20.1:2.3.3"
 	modImplementation "com.teamresourceful.resourcefulconfig:resourcefulconfig-fabric-1.20.1:2.1.2"
+
+	// Spell Engine
+	modImplementation "curse.maven:spell-engine-807653:6009091"
+	modImplementation "curse.maven:spell-power-771265:5672350"
+	modImplementation "curse.maven:azurelib-817423:7084469"
 }
 
 processResources {
