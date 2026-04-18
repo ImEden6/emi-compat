@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - **Spell Binding EMI Integration**: Complete compatibility layer for the Spell Binding Table.
+- **Book to Spellbook Recipes**: Added recipes for converting standard books into initial spellbooks (Wizard, Rogue, etc.).
 - **Tier Visualization**: Roman numerals (I, II, III+) displayed for each spell tier.
 - **Experience Requirement**: Hover tooltip on XP cost showing the minimum level required to bind.
 - **XP Cost Display**: Spending cost shown in green directly under the recipe arrow.
