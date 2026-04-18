@@ -19,7 +19,7 @@ public class SpellEngineEmiCompat implements EmiPlugin {
 	public static final String MOD_ID = "emicompat";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	public static final ResourceLocation SPELL_BINDING_ID = new ResourceLocation("_emicompat", "spell_binding");
+	public static final ResourceLocation SPELL_BINDING_ID = new ResourceLocation("emicompat", "spell_binding");
 	public static final EmiRecipeCategory SPELL_BINDING_CATEGORY = new EmiRecipeCategory(SPELL_BINDING_ID,
 			EmiStack.of(BuiltInRegistries.ITEM.get(new ResourceLocation("spell_engine", "spell_binding"))));
 
