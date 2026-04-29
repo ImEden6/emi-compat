@@ -14,7 +14,8 @@
 		"emi": [
 			"com.mervyn.emicompat.SpellEngineEmiCompat",
 			"com.mervyn.emicompat.AdAstraEmiCompat",
-			"com.mervyn.emicompat.ChippedEmiCompat"
+			"com.mervyn.emicompat.ChippedEmiCompat",
+			"com.mervyn.emicompat.ThingsEmiCompat"
 		]
 	},
 	"mixins": [

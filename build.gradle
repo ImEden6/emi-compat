@@ -42,6 +42,9 @@ dependencies {
 	modImplementation "curse.maven:spell-engine-807653:6009091"
 	modImplementation "curse.maven:spell-power-771265:5672350"
 	modImplementation "curse.maven:azurelib-817423:7084469"
+
+	// Things
+	modImplementation "curse.maven:things-fabric-456151:4921204"
 }
 
 processResources {
