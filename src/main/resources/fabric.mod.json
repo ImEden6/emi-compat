@@ -27,6 +27,7 @@
 		"emi": "*"
 	},
     "suggests": {
+		"chipped": "*",
         "ad_astra": "*",
         "spell_engine": "*"
   }
