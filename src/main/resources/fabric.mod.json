@@ -24,8 +24,10 @@
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"emi": "*",
-		"ad_astra": "*",
-		"spell_engine": "*"
-	}
+		"emi": "*"
+	},
+    "suggests": {
+        "ad_astra": "*",
+        "spell_engine": "*"
+  }
 }
