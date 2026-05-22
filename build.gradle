@@ -45,6 +45,9 @@ dependencies {
 
 	// Things
 	modImplementation "curse.maven:things-fabric-456151:4921204"
+
+	// Enchanted: Witchcraft
+	modImplementation "curse.maven:enchanted-witchcraft-560363:6638515"
 }
 
 processResources {

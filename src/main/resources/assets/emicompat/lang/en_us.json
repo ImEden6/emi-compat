@@ -9,5 +9,15 @@
   "emi.category.chipped.mason_table": "Mason Table",
   "emi.category.chipped.mechanist_workbench": "Mechanist's Workbench",
   "emi.category.chipped.tinkering_table": "Tinkering Table",
-  "emi.category.emicompat.spell_binding": "Spell Binding Table"
+  "emi.category.emicompat.spell_binding": "Spell Binding Table",
+  "emi.category.enchanted.byproduct": "Witch's Oven",
+  "emi.category.enchanted.distilling": "Distillery",
+  "emi.category.enchanted.spinning_": "Spinning Wheel",
+  "emi.category.enchanted.witch_cauldron": "Witch's Cauldron",
+  "emi.category.enchanted.kettle": "Kettle",
+  "emi.category.enchanted.rite": "Circle Magic",
+  "emi.category.enchanted.mutandis": "Mutandis",
+  "emi.category.enchanted.mutandis_extremis": "Mutandis Extremis",
+  "emi.compat.enchanted.required_altar_power": "Required Altar Power: %s",
+  "emi.compat.enchanted.altar_power": "Power: %s"
 }

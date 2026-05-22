@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2026-04-29
+
+### Added
+
+- **Things Mod Integration**: Added EMI support for "Socks" upgrades.
+- **Socks Speed Upgrades**: Visual recipes for Level 0 -> 1 and Level 1 -> 2 upgrades using Gleaming Powder and Potion of Swiftness II.
+- **Jumpy Socks Upgrade**: Visual recipe for adding the Jumpy attribute using Gleaming Compound and Rabbit Foot Charm.
+
 ## [1.0.1] - 2026-04-18
 
 ### Added
