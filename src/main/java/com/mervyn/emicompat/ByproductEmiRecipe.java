@@ -18,7 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ByproductEmiRecipe implements EmiRecipe {
-	private final ByproductRecipe recipe;
 	private final ResourceLocation id;
 	private final EmiIngredient input;
 	private final EmiIngredient smeltingOutput;
@@ -28,7 +27,6 @@ public class ByproductEmiRecipe implements EmiRecipe {
 	private final List<EmiStack> outputs;
 
 	public ByproductEmiRecipe(ByproductRecipe recipe) {
-		this.recipe = recipe;
 		this.id = recipe.getId();
 		
 		RegistryAccess registryAccess = Minecraft.getInstance().level.registryAccess();

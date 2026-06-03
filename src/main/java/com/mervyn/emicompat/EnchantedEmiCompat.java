@@ -4,7 +4,6 @@ import dev.emi.emi.api.EmiEntrypoint;
 import dev.emi.emi.api.EmiPlugin;
 import dev.emi.emi.api.EmiRegistry;
 import dev.emi.emi.api.recipe.EmiRecipeCategory;
-import dev.emi.emi.api.stack.EmiIngredient;
 import dev.emi.emi.api.stack.EmiStack;
 import net.favouriteless.enchanted.common.circle_magic.RiteType;
 import net.favouriteless.enchanted.common.init.EData;
@@ -13,7 +12,6 @@ import net.favouriteless.enchanted.common.init.registry.EBlocks;
 import net.favouriteless.enchanted.common.init.registry.EItems;
 import net.favouriteless.enchanted.common.init.registry.ERecipeTypes;
 import net.minecraft.client.Minecraft;
-import net.minecraft.core.Holder;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
@@ -21,7 +19,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeManager;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @EmiEntrypoint
