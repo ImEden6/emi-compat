@@ -39,7 +39,7 @@ public class SpellBindingEmiRecipe implements EmiRecipe {
 		this.spell = SpellRegistry.getSpell(new ResourceLocation(spellId));
 		this.tier = this.spell != null && this.spell.learn != null ? this.spell.learn.tier : 1;
 	}
-	//TODO Make level costs and bookshelf requirements accurate to the game(HARDCODED)
+
 	private int getLevelRequirement() {
 		int perTier = spell != null && spell.learn != null ? spell.learn.level_requirement_per_tier : 10;
 		return tier * perTier;
