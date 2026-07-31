@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2] - 2026-07-31
+
+### Changed
+
+- Replaced reflection-based (`Class.forName`) loading of the Chipped, Things, and Enchanted EMI compat modules with direct, compile-time registration, matching the existing Ad Astra and Spell Engine pattern. No behavior change — compat modules still only register when their target mod is loaded.
+
 ## [1.0.3] - 2026-04-29
 
 ### Added

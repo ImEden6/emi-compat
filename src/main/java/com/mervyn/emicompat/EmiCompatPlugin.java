@@ -16,7 +16,6 @@ public class EmiCompatPlugin implements EmiPlugin {
 	public void register(EmiRegistry registry) {
 		LOGGER.info("Initializing EMI Compat multi-mod plugin");
 
-		// Hard dependencies
 		if (FabricLoader.getInstance().isModLoaded("ad_astra")) {
 			LOGGER.info("Loading Ad Astra EMI compatibility...");
 			new AdAstraEmiCompat().register(registry);
@@ -26,28 +25,17 @@ public class EmiCompatPlugin implements EmiPlugin {
 			new SpellEngineEmiCompat().register(registry);
 		}
 
-		// Optional dependencies (Classloader isolated)
 		if (FabricLoader.getInstance().isModLoaded("chipped")) {
 			LOGGER.info("Loading Chipped EMI compatibility...");
-			safeRegister("com.mervyn.emicompat.ChippedEmiCompat", registry);
+			new ChippedEmiCompat().register(registry);
 		}
 		if (FabricLoader.getInstance().isModLoaded("things")) {
 			LOGGER.info("Loading Things EMI compatibility...");
-			safeRegister("com.mervyn.emicompat.ThingsEmiCompat", registry);
+			new ThingsEmiCompat().register(registry);
 		}
 		if (FabricLoader.getInstance().isModLoaded("enchanted")) {
 			LOGGER.info("Loading Enchanted EMI compatibility...");
-			safeRegister("com.mervyn.emicompat.EnchantedEmiCompat", registry);
-		}
-	}
-
-	private void safeRegister(String className, EmiRegistry registry) {
-		try {
-			Class<?> clazz = Class.forName(className);
-			EmiPlugin plugin = (EmiPlugin) clazz.getDeclaredConstructor().newInstance();
-			plugin.register(registry);
-		} catch (Throwable t) {
-			LOGGER.error("Failed to load EMI compatibility plugin: " + className, t);
+			new EnchantedEmiCompat().register(registry);
 		}
 	}
 }
