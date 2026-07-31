@@ -1,13 +1,16 @@
 # EMI Compat (Client-side)
 
-A compatibility layer bringing enhanced [EMI](https://github.com/emilyploszaj/emi) support to various mods.
+A compatibility layer bringing enhanced [EMI](https://github.com/emilyploszaj/emi) support to various Fabric mods.
 
 ## Features
 
 This mod provides recipe categories and logic for:
 
-- **Ad Astra**: View automated NASA Workbench recipes directly in EMI.
-- **Chipped**: Integrated support for all Chipped workbenches (Alchemy, Botanist, Carpenter, Mason, etc.), allowing you to see all variants of a block in one place.
+- **Ad Astra**: View NASA Workbench recipes directly in EMI, with additional support for the Automated NASA Workbench (when *Ad Astra: Giselle Addon* is installed).
+- **Chipped**: Integrated support for all 8 Chipped workbenches (Alchemy Bench, Botanist Workbench, Carpenter's Table, Glassblower, Loom Table, Mason Table, Mechanist Workbench, and Tinkering Table), allowing you to see block variants and recipe tags directly in EMI.
+- **Spell Engine**: Full EMI support for the Spell Binding Table and Book-to-Spellbook binding recipes, featuring spell tier visualization (Roman numerals), XP costs/requirements, Lapis Lazuli requirements, and bookshelf counters.
+- **Things**: EMI crafting recipes for Socks speed upgrades (Level 0 -> 1 and Level 1 -> 2) and Jumpy Socks upgrades.
+- **Enchanted: Witchcraft**: EMI recipe integration for Witch's Oven (Byproducts), Distillery, Spinning Wheel, Witch's Cauldron, Kettle, Circle Magic Rites (Ritual, Golden, Nether, and Otherwhere Chalk), Mutandis, and Mutandis Extremis.
 
 ## Installation
 
@@ -17,9 +20,15 @@ This mod provides recipe categories and logic for:
 
 ## Dependencies
 
-- **[EMI](https://modrinth.com/mod/emi)** (Required)
-- **Ad Astra** (Optional/Supported)
-- **Chipped** (Optional/Supported)
+### Required
+- **[EMI](https://modrinth.com/mod/emi)**
+
+### Optional / Supported Mods
+- **Ad Astra** (and **Ad Astra: Giselle Addon**)
+- **Chipped**
+- **Spell Engine**
+- **Things**
+- **Enchanted: Witchcraft**
 
 ## License
 
